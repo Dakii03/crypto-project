@@ -1,0 +1,147 @@
+[
+{
+  "from": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+  "amount0In": 0,
+  "amount1In": 188535012,
+  "amount0Out": 46549972957123880,
+  "amount1Out": 0,
+  "to": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+  "_id": "65eee13e3d0af9d78182ee2a"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 0,
+  "amount1In": 3022000000,
+  "amount0Out": 746106433403559000,
+  "amount1Out": 0,
+  "to": "0xd7cEF1E0C02B50e9C5852F47736880B66E50aCDE",
+  "_id": "65eee14a3d0af9d78182ee2c"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 992982993207286700,
+  "amount1In": 0,
+  "amount0Out": 0,
+  "amount1Out": 3997784431,
+  "to": "0xF444Fb0F2BeDA5A91A4b93EB6e85c820676099C4",
+  "_id": "65eee16148ab7b73572fb34a"
+},
+{
+  "from": "0x14f2b6ca0324cd2B013aD02a7D85541d215e2906",
+  "amount0In": 0,
+  "amount1In": 125092228,
+  "amount0Out": 30886498918201104,
+  "amount1Out": 0,
+  "to": "0x14f2b6ca0324cd2B013aD02a7D85541d215e2906",
+  "_id": "65eee16148ab7b73572fb34b"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 0,
+  "amount1In": 1136632489,
+  "amount0Out": 281374449553957900,
+  "amount1Out": 0,
+  "to": "0x9081B50BaD8bEefaC48CC616694C26B027c559bb",
+  "_id": "65eee5bd8633794b1943e373"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 1125595622194860000,
+  "amount1In": 0,
+  "amount0Out": 0,
+  "amount1Out": 4514823905,
+  "to": "0xE39b9077F7E6520a5204877858F8d78bB05B33A4",
+  "_id": "65eee8e3552c49ccb863f4c3"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 0,
+  "amount1In": 1000000000,
+  "amount0Out": 247657823430446620,
+  "amount1Out": 0,
+  "to": "0x4e34dA137f0B317c633838458E0c923a5E088752",
+  "_id": "65eee94e35bdea8ebfeed7e4"
+},
+{
+  "from": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
+  "amount0In": 500000000000000000,
+  "amount1In": 0,
+  "amount0Out": 0,
+  "amount1Out": 2006788598,
+  "to": "0x5824bc16A730AA05372f06Af67f238992459dA4B",
+  "_id": "65eee94e35bdea8ebfeed7e6"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 390608198614816800,
+  "amount1In": 0,
+  "amount0Out": 0,
+  "amount1Out": 1567650863,
+  "to": "0x283695dB7e419f1E6FC021343789dae9f88F6Ce5",
+  "_id": "65eee94e35bdea8ebfeed7e7"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 0,
+  "amount1In": 304003760,
+  "amount0Out": 75295610181118140,
+  "amount1Out": 0,
+  "to": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "_id": "65eee94e35bdea8ebfeed7e8"
+},
+{
+  "from": "0x00000047bB99ea4D791bb749D970DE71EE0b1A34",
+  "amount0In": 1792472599355970600,
+  "amount1In": 0,
+  "amount0Out": 0,
+  "amount1Out": 7210397125,
+  "to": "0x4B1DDb98D6644C156393f543eB8Ed585Ad990AE3",
+  "_id": "65eeec72bc67fe08e3565b2f"
+},
+{
+  "from": "0xf081470f5C6FBCCF48cC4e5B82Dd926409DcdD67",
+  "amount0In": 100000000000000000,
+  "amount1In": 0,
+  "amount0Out": 0,
+  "amount1Out": 402213213,
+  "to": "0xf081470f5C6FBCCF48cC4e5B82Dd926409DcdD67",
+  "_id": "65eeec72bc67fe08e3565b30"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 0,
+  "amount1In": 80600000,
+  "amount0Out": 19921669900578090,
+  "amount1Out": 0,
+  "to": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "_id": "65eeed328b7cadaf7285c230"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 0,
+  "amount1In": 20000000000,
+  "amount0Out": 4941840485096795000,
+  "amount1Out": 0,
+  "to": "0x8DbEE21E8586eE356130074aaa789C33159921Ca",
+  "_id": "65eeed328b7cadaf7285c231"
+}
+,
+{
+  "from": "0xF3dE3C0d654FDa23daD170f0f320a92172509127",
+  "amount0In": 0,
+  "amount1In": 4486500000,
+  "amount0Out": 1100975663619681900,
+  "amount1Out": 0,
+  "to": "0x68e4Af213c49f320175116Bff189C9Ca452CE29c",
+  "_id": "65f189373af6f732dbe71ba2"
+},
+{
+  "from": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+  "amount0In": 733529695101651600,
+  "amount1In": 0,
+  "amount0Out": 0,
+  "amount1Out": 2971309624,
+  "to": "0x41033EcAf9216aabE4404ECEeEf6FDb684811667",
+  "_id": "65f189373af6f732dbe71ba3"
+}
+]
