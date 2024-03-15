@@ -10,7 +10,7 @@ export async function getSwap(): Promise<void> {
     const usdcAddress = "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852"; // USDC Contract
     const provider = await createWebSocketProvider(settings.apiMainnetKey);
     const contract = new ethers.Contract(usdcAddress, ABI, provider);
-
+    let objectSwap;
     connect();
     let firstObject = true;
 
@@ -43,7 +43,7 @@ export async function getSwap(): Promise<void> {
 
     contract.on("Swap", async (sender, amount0In, amount1In, amount0Out, amount1Out, to) => {
         try {
-            const objSwap = new SwapEvent({
+            const objSwap = await new SwapEvent({
                 from: sender,
                 amount0In: Number(amount0In),
                 amount1In: Number(amount1In),
@@ -51,7 +51,7 @@ export async function getSwap(): Promise<void> {
                 amount1Out: Number(amount1Out),
                 to,
             });
-
+            objectSwap = objSwap;
             let jsonStr = JSON.stringify(objSwap, null, 2);
 
             if (!firstObject) {
@@ -77,5 +77,5 @@ export async function getSwap(): Promise<void> {
     });
 
     console.log("Initialized event listener");
+    return objectSwap;
 }
-//export { getSwap };

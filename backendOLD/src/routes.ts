@@ -2,6 +2,8 @@ import express from 'express';
 import { ethers } from 'ethers';
 import { getBlockNumbers, createSigner, createProvider } from './script';
 import cors from 'cors';
+import { getSwap } from './contracts';
+import fs from 'fs';
 
 const { settings } = require('./script');
 const app = express();
@@ -73,6 +75,22 @@ app.post("/send", async (req, res) => {
     res.send({ transactionHash: txResponse.hash });
   } catch (error) {
     res.status(500).send({ error: (error as Error).message });
+  }
+});
+
+app.get('/swap', async (req, res) => {
+  try {
+    
+    const obj = await getSwap();
+    console.log(obj, 'obj');
+    
+    const filePath = './src/data/swapEventDB.json';
+    const swapEventData = fs.readFileSync(filePath, 'utf8');
+
+    res.send(swapEventData);
+  } catch (error) {
+    console.error('Error fetching swap events:', error);
+    res.status(500).send({ error: 'Error fetching swap events' });
   }
 });
 

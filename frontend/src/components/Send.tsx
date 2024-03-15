@@ -29,7 +29,7 @@ function Send() {
   };
 
   return (
-    <div>
+    <div className=''>
       <h2>Send</h2>
       <form onSubmit={handleSubmit}>
         <div>
